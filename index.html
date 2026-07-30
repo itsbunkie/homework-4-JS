@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Number Guessing Game</h1>
+
+        <p>Guess a number between 1 and 100.</p>
+
+        <h2 id="clock"></h2>
+
+        <label>
+            <input type="checkbox" id="soundToggle" checked>
+            Sound On
+        </label>
+
+        <br><br>
+
+        <input
+            type="number"
+            id="guessInput"
+            min="1"
+            max="100"
+            placeholder="Enter your guess">
+
+        <button id="guessBtn">
+            Guess
+        </button>
+
+        <p id="message">
+            Take a guess to begin.
+        </p>
+
+        <div id="stats">
+
+            <div>
+                <strong>Guesses Left</strong><br>
+                <span id="guessesLeft">10</span>
+            </div>
+
+            <div>
+                <strong>Wins</strong><br>
+                <span id="wins">0</span>
+            </div>
+
+            <div>
+                <strong>Rounds</strong><br>
+                <span id="rounds">0</span>
+            </div>
+
+        </div>
+
+        <br>
+
+        <button id="newGameBtn">
+            New Game
+        </button>
+
+        <br><br>
+
+        <a href="memory.html">
+            Go to Part B - Memory Matching Game
+        </a>
+
+    </div>
+
+    <!-- Sound files -->
+
+    <audio id="correctSound">
+        <source src="sounds/correct.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="wrongSound">
+        <source src="sounds/wrong.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="winSound">
+        <source src="sounds/win.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="guess.js"></script>
+
+</body>
+
+</html>
