@@ -66,8 +66,6 @@ Github:
 
 ## 2. Edge-Case Tests You Ran
 
-List actual tests you performed, what you expected, and what happened.
-
 | 1 | Entered `0` as a guess | Rejected, no guess used ||
 
 | 2 | Entered `101` as a guess | Rejected, no guess used ||
@@ -84,7 +82,7 @@ After you start the game it displays the animal emojis then mask them with cards
 
 ---
 
-## 3. Bug Writeup (one bug, real, with before/after)
+## 3. Bug Writeup 
 
 **Bug description:**
 > During the memory game's memorization phase, clicking
