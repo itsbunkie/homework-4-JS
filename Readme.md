@@ -68,8 +68,6 @@ Github:
 
 List actual tests you performed, what you expected, and what happened.
 
-| # | Test | Expected/Actual |
-|---|------|----------|--------|-----------|
 | 1 | Entered `0` as a guess | Rejected, no guess used ||
 | 2 | Entered `101` as a guess | Rejected, no guess used ||
 | 3 | Entered '1'| "Too Low" + guess left -1 ||
