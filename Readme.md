@@ -69,9 +69,13 @@ Github:
 List actual tests you performed, what you expected, and what happened.
 
 | 1 | Entered `0` as a guess | Rejected, no guess used ||
+
 | 2 | Entered `101` as a guess | Rejected, no guess used ||
+
 | 3 | Entered '1'| "Too Low" + guess left -1 ||
+
 | 4 | Entered letters (`abc`) | Rejected and showed "enter number 1 to 10"||
+
 | 5 | Guessed '90'| "correct!", new round starts ||
 
 Memory game: clicked a card during the memorize countdown 
